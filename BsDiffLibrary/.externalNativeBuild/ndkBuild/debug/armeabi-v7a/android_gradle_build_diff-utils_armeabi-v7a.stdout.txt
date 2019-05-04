@@ -1,0 +1,1 @@
+make: `/Users/yangjianjun/work/source/Learn/BsDiffLibrary/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libdiff-utils.so' is up to date.

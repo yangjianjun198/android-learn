@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/button"
+        android:onClick="onRequestLayout"
+        android:text="请求requestLayout"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="onInvlitate"
+        android:text="请求invilite"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="sendMessage"
+        android:text="向服务发送消息"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="发送请求"
+        android:onClick="handle"
+        android:layout_height="40dp"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/my"
+        android:layout_height="wrap_content">
+        <com.yjj.learn.view.MyView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+    </FrameLayout>
+    <include layout="@layout/testccc"/>
+
+</LinearLayout>
